@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="background.css" /> -->
+  </head>
+  <body>
+    <div class="header">header</div>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="cats.html">My Cats</a>
+      <a href="#">Guessing Game</a>
+    </div>
+    <h1>Welcome to our guessing game!</h1>
+    <label for="numGuesses">How Many Guesses:</label>
+    <input type="number" id="numGuesses" name="numGuesses" />
+    <button id="startGameButton">Start Game!</button>
+
+    <div id="gameArea" style="display: none">
+      <h2 style="color: red" id="alertArea"></h2>
+      <div><span>Guess Number:</span><span id="guessNumber"></span></div>
+      <label for="numGuesses">Your Guess:</label>
+      <input type="number" id="guess" name="guess" />
+      <button id="guessButton">Guess</button>
+    </div>
+
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>

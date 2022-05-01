@@ -69,3 +69,23 @@ body {
 .catphoto {
   width: 49%;
 }
+.game-section {
+  background-color: lightblue;
+  padding: 48px;
+  margin: 48px;
+  border-radius: 8px;
+}
+.gamecontainer {
+  display: flex;
+  justify-content: center;
+}
+.game-section button,
+.game-section input {
+  background-color: #333;
+  color: white;
+  font-size: 27px;
+  border-radius: 8px;
+}
+.game-section * {
+  margin-bottom: 10px;
+}

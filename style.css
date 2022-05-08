@@ -36,12 +36,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: rgba(208, 244, 255, 0.767);
   width: 33%;
-  background-color: rgba(255, 255, 255, 0.7);
   padding: 20px;
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1500px) {
   .column {
     width: 100%;
   }
@@ -65,6 +65,7 @@ body {
 .row {
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
 }
 .catphoto {
   width: 49%;
